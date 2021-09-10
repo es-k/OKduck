@@ -17,39 +17,32 @@ html,body
 body{
     font-family: Arial, sans-serif;
 }
-
 ul{
     padding-right: 32px;
     display: flex;
     gap: 10px; 
 }
-
 li{
     list-style: none;
 }
-
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 header li, .first .text{
     font-size: 14px;
     color:#E5E7EB;
 
 }
-
 header, footer, .first{
     background-color: #1F2937;
 }
-
 header img{
     height: auto;
     width: 42px;
     margin: 8px 8px 0px 32px;
 }
-
 .first h1{
     font-size: 48px;
     font-weight: 9000;
@@ -62,12 +55,10 @@ header img{
     height: auto;
     width: auto;
 }
-
 @media screen and (max-width: 770px) { 
 
     .first img {display: none;}
 }
-
 .first{
     padding: 64px 24px;
     display: flex;
@@ -75,14 +66,12 @@ header img{
     align-items: center;
     gap: 48px;
 }
-
 .block{
     display: flex;
     flex-flow: column;
     flex-wrap: wrap;
     width: 356px;
 }
-
 .first button{
     width: 100px;
     padding: 6px 10px;
@@ -93,14 +82,12 @@ header img{
     border: none;
     margin-top: 10px;
 }
-
 .image-info img{
     height: auto;
     width: 120px;
     border-radius: 10px;
     border: 3px solid #3882F6;
 }
-
 .image-info{
     display: flex;
     flex-flow: column wrap;
@@ -108,30 +95,24 @@ header img{
     width: 120px;
     gap: 8px;
 }
-
 .info{
     font-size: 13px;
     color: rgb(0, 0, 0, .7);
 }
-
 button, .call-to-action{
     background-color: #3882F6;
 }
-
 .second{
     padding: 32px 0px 96px 0px;
 }
-
 h2, .info{
     text-align: center;
 }
-
 h2{
     margin: 0px 0px 32px 0px;
     font-weight: 800;
     color: rgb(0, 0, 0, .9);
 }
-
 .information{
     display: flex;
     justify-content: center;
@@ -139,13 +120,11 @@ h2{
     flex-wrap: wrap;
     
 }
-
 .quote{
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
 }
-
 .card{
     
     padding: 72px 36px;
@@ -155,18 +134,50 @@ h2{
     gap: 8px;
     width: 640px;
 }
-
 .author{
     align-self: flex-end;
 }
-
 .card .text{
     font-size: 24px;
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
 }
-
+.final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+    color: white;
+}
 .final h3{
     margin: 0px;
+    font-size: 20px;
+}
+.call-to-action{
+    display: flex;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px 120px;
+    margin: 0px 24px;
+}
+.call-to-action .text-block{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.text-block .text{
+    color: rgb(255, 255, 255, .7);
+    font-size: 14px;
+}
+.call-to-action button{
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 4px 18px;
+    flex-shrink: 0;
+    font-weight: 700;
 }
