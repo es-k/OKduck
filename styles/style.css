@@ -34,13 +34,13 @@ header{
     align-items: center;
 }
 
-header li, main .text{
+header li, .first .text{
     font-size: 14px;
     color:#E5E7EB;
 
 }
 
-header, footer, main{
+header, footer, .first{
     background-color: #1F2937;
 }
 
@@ -50,19 +50,19 @@ header img{
     margin: 8px 8px 0px 32px;
 }
 
-main h1{
+.first h1{
     font-size: 48px;
     font-weight: 9000;
     color:#F9FAF8;
     margin: 0px;
 }
-main img{
+.first img{
     max-width: 360px;
     max-height: 174.86px;
     height: auto;
     width: auto;
 }
-main{
+.first{
     padding: 64px 24px;
     display: flex;
     justify-content: center;
@@ -78,7 +78,7 @@ main{
     width: 356px;
 }
 
-main button{
+.first button{
     width: 100px;
     padding: 6px 10px;
     font-size: 14px;
@@ -101,15 +101,20 @@ main button{
     flex-flow: column wrap;
     align-items: center;
     width: 120px;
+    gap: 8px;
 }
 
 .info{
-    font-size: 14px;
+    font-size: 13px;
     color: rgb(0, 0, 0, .7);
 }
 
 button, .call-to-action{
     background-color: #3882F6;
+}
+
+.second{
+    padding: 32px 0px 96px 0px;
 }
 
 h2, .info{
@@ -126,16 +131,37 @@ h2{
     display: flex;
     justify-content: center;
     gap: 64px;
+    flex-wrap: wrap;
     
 }
 
 .quote{
+    display: flex;
+    justify-content: center;
     background-color: #E5E7EB;
 }
 
-.quote .text{
+.card{
+    
+    padding: 72px 36px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 8px;
+    width: 640px;
+}
+
+.author{
+    align-self: flex-end;
+}
+
+.card .text{
     font-size: 24px;
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
+}
+
+.final h3{
+    margin: 0px;
 }
