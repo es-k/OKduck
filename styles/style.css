@@ -62,13 +62,18 @@ header img{
     height: auto;
     width: auto;
 }
+
+@media screen and (max-width: 770px) { 
+
+    .first img {display: none;}
+}
+
 .first{
     padding: 64px 24px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 48px;
-    flex-wrap: wrap;
 }
 
 .block{
