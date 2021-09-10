@@ -211,7 +211,6 @@ h2{
     flex-shrink: 0;
     font-weight: 700;
 }
-
 footer{
     display: flex;
     flex-flow: column wrap;
@@ -222,7 +221,6 @@ footer{
     gap: 3px;
     color: #F9FAF8;
 }
-
 footer .credit{
     font-size: 13px;
     color: rgb(255, 255, 255, .7)
